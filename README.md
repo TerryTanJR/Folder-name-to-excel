@@ -1,6 +1,6 @@
-## Folder names to excel
+## Folder names and hyperlinks to excel
 
-A program that extracts folder names and saves their names and hyperlinks to their actural locations into an Excel file.
+A program that extracts folder names and saves both their names and hyperlinks to their actural locations into an Excel file.
 
 Note that :
 * Please place all the folders inside another folder so that **folder_path** can find the location of all the folders.
