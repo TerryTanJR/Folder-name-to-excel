@@ -13,17 +13,6 @@ ws = wb.active
 # set a title in the first row
 #ws.cell(row=1, column=1, value='title')
 
-
-"""
-# go through all the folders' name to put their names in an Excel
-
-for folder_name in os.listdir(folder_path):
-    if os.path.isdir(os.path.join(folder_path, folder_name)):
-        ws.append([folder_name])
-        #ws.cell(row=row, column=1, value=folder_name)
-
-"""
-
 # go through all the folders' name to put their names in an Excel and build the each link
 for row, folder_name in enumerate(os.listdir(folder_path), start=2):
     if os.path.isdir(os.path.join(folder_path, folder_name)):
